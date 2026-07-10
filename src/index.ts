@@ -1,10 +1,5 @@
-import { env } from "./config";
+import { env } from "./config/env";
 
-async function bootstrap() {
-  console.log("🚀 Starting Forex Support Bot...");
-  console.log(`Environment: ${env.NODE_ENV}`);
+console.log("✅ Environment Loaded");
 
-  console.log("✅ Application started successfully.");
-}
-
-bootstrap();
+console.log(env);
