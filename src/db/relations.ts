@@ -23,3 +23,12 @@ export const messagesRelations = relations(messages, ({ one }) => ({
     references: [users.id],
   }),
 }));
+console.log("RELATIONS CHECK");
+
+console.log({
+  usersId: users.id,
+  ticketUserId: tickets.userId,
+  ticketId: tickets.id,
+  messageTicketId: messages.ticketId,
+  messageSenderId: messages.senderId,
+});

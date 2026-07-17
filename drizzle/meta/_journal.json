@@ -8,6 +8,27 @@
       "when": 1783666900259,
       "tag": "0000_clear_eddie_brock",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1784282027519,
+      "tag": "0001_tense_texas_twister",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1784285520340,
+      "tag": "0002_talented_dreadnoughts",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1784285606385,
+      "tag": "0003_workable_starbolt",
+      "breakpoints": true
     }
   ]
 }

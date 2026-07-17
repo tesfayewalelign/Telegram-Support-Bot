@@ -1,5 +1,20 @@
-import { env } from "./config/env";
+import { bot } from "./bot/bot";
 
-console.log("✅ Environment Loaded");
+async function startBot() {
+  try {
+    console.log("Starting Telegram bot...");
 
-console.log(env);
+    await bot.telegram.getMe();
+
+    console.log("Telegram API connection successful");
+
+    await bot.launch();
+
+    console.log("✅ Bot started");
+  } catch (error) {
+    console.error("❌ Bot failed:");
+    console.error(error);
+  }
+}
+
+startBot();
